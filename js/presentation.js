@@ -7,7 +7,7 @@ window.onload = function(e){
           }, "3500");
 
     
-          setTimeout(()=>{window.location = '../html/pageOne.html' },4500)
+          setTimeout(()=>{window.location = 'practice-repo/html/pageOne.html' },4500)
        
 }
     
