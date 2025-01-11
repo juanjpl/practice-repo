@@ -52,7 +52,7 @@ html {
   height: 100vh;
   background-color: var(--color-grey-001);
 
-  background-image: url(../img/s-l1200.png);
+  background-image: url(../assets/image-home.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 110%;
