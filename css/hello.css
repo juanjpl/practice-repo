@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --font-manrope: "Manrope", serif;
+
+  --color-blue-001: #054982;
+  --color-blue-002: #1c7dd5;
+  --color-blue-003: #2a4a8b;
+
+  --color-green-001: #0091b5;
+  --color-green-002: #bbcf00;
+
+  --color-orange-001: ##db5000;
+  --color-orange-002: #be6c00;
+  --color-orange-003: #eeba00;
+
+  --color-yellow-001: #f5c900;
+  --color-yellow-001: #f8d90f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: var(--font-manrope);
+}
+
+html {
+  background-color: transparent;
+}
+
+body {
+  background-color: var(--color-blue-002);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-hello {
+  height: 95vh;
+  width: 75vw;
+}
+
+.hero {
+  height: 75%;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.portfolio {
+
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero > div {
+  height: max-content;
+  width: 100%;
+}
+
+.hero > div > h1 {
+  font-size: 20em;
+  text-transform: capitalize;
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 1em;
+}
+
+.hero > div > h2 {
+  font-size: 10em;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+.portfolio>div{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.portfolio >div {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: 0.3em;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.navbar > img {
+  height: 100%;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.navbar > div {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    letter-spacing: 0.3em;
+}
+
+.links > ul {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.links > ul > li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links > ul > li > a {
+  padding: 0.5em 1.5em;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+}
